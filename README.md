@@ -47,4 +47,31 @@ The solver tries valid numbers recursively and backtracks when a constraint is v
 ---
 
 ## 🏗️ Project Structure
+Sudoku solver/
+|
+|-- main.py        -> Application entry point
+|-- gui.py         -> Tkinter graphical interface
+|-- solver.py      -> Backtracking Sudoku solver (DSA logic)
+|-- puzzles.py     -> Pre-filled Sudoku puzzles
+|-- config.py      -> Configuration constants
+`-- README.md      -> Project documentation
+
+
+In this structure:
+- `main.py` serves as the starting point of the application.
+- `gui.py` handles all user interface functionality using Tkinter.
+- `solver.py` contains the core backtracking algorithm.
+- `puzzles.py` stores multiple predefined Sudoku boards.
+- `config.py` centralizes configuration values such as grid size and sub-grid dimensions.
+- `README.md` provides documentation for the project.
+
+---
+
+## ▶️ How to Run
+
+Ensure Python is installed on your system, then run the application using:
+
+```bash
+python main.py
+
 
