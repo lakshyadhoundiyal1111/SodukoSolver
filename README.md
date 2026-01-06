@@ -49,13 +49,13 @@ The solver tries valid numbers recursively and backtracks when a constraint is v
 ## 🏗️ Project Structure
 
 Sudoku solver/
-|
-|-- main.py        -> Application entry point
-|-- gui.py         -> Tkinter graphical interface
-|-- solver.py      -> Backtracking Sudoku solver (DSA logic)
-|-- puzzles.py     -> Pre-filled Sudoku puzzles
-|-- config.py      -> Configuration constants
-`-- README.md      -> Project documentation
+|-- main.py     -> Application entry point
+|-- gui.py      -> Tkinter graphical interface
+|-- solver.py   -> Backtracking Sudoku solver (DSA logic)
+|-- puzzles.py  -> Pre-filled Sudoku puzzles
+|-- config.py   -> Configuration constants
+`-- README.md   -> Project documentation
+
 
 
 
