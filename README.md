@@ -47,6 +47,7 @@ The solver tries valid numbers recursively and backtracks when a constraint is v
 ---
 
 ## 🏗️ Project Structure
+
 Sudoku solver/
 |
 |-- main.py        -> Application entry point
@@ -55,6 +56,7 @@ Sudoku solver/
 |-- puzzles.py     -> Pre-filled Sudoku puzzles
 |-- config.py      -> Configuration constants
 `-- README.md      -> Project documentation
+
 
 
 In this structure:
